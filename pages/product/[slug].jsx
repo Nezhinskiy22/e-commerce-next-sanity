@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 import { useState } from "react";
 import { Product } from "../../components";
-import { useStateContext } from "../../context/stateContext";
+import { useStateContext } from "../../context/StateContext";
 
 const ProductDetails = ({ products, product }) => {
   const { image, name, details, price } = product;
